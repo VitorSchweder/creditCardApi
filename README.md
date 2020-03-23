@@ -5,18 +5,6 @@ composer install
 </pre>
 
 <p>
-If you don't have PostgreSQL installed you have to install
-</p>
-
-<p>
-Create database in PostgreSQL
-</p>
-    
-<p>
-Set connection with database in .env file, PORT = 5432
-</p>
-
-<p>
 Set JWT_SECRET in .env file, example JWT_SECRET=081ZMlHGJ2nmw0R0rPZ7QTIGTCtvEm0m6csuJFRVWc
 you can generate running the command: php artisan jwt:secret
 </p>
